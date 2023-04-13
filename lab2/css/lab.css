@@ -1,5 +1,23 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+h1 {
+  color: rgb(102, 46, 102);
+  font-size: 200%;
+}
+p {
+  color: grey;
+  font-family: 'Didact Gothic', sans-serif;
 
+}
+#content {
+  background-color: aliceblue;
+  width: 500px;
+  min-height: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: dotted 2px #444444; 
+  font-size: 20px;
+}
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
     padding: 10px;
