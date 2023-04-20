@@ -16,3 +16,40 @@
   max-width: 500px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&display=swap');
+
+body {
+  background-color: black;
+  font-family: 'Didact Gothic', sans-serif;
+  color: rgb(206, 255, 157);
+}
+h1, h2, h3 {
+  font-family: 'Chivo Mono', monospace;
+}
+#content {
+  margin: 10px;
+  padding: 10px;
+  color: rgb(206, 255, 157);
+  border: solid 1px  rgb(206, 255, 157);
+  background-color: #2d2d2d;
+}
+a {
+  color:rgb(157, 222, 255)
+}
+a:visited {
+  color:rgb(234, 157, 255)
+}
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: dotted 4px  rgb(206, 255, 157);
+  background-color: #41085b;
+}
+
+.screenshot {
+  width: 50% ;
+}
+
