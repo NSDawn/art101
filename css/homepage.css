@@ -4,3 +4,15 @@
   margin: 10px;
   max-width: 500px;
 }
+
+.profile-photo {
+  width: 100%;
+  max-width: 750px;
+  min-width: 300px;
+}
+
+
+.chicken-nugget {
+  max-width: 500px;
+}
+
