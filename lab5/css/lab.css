@@ -2,8 +2,25 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #DDD8C4;
+}
+
+.car_image {
+  width: 50%;
+  animation: spin 1s infinite linear;
+  
+}
+
+@keyframes spin {
+  from { transform: rotateZ(0deg);  }
+  to { transform: rotateZ(360deg); }
+}
+
+
+@keyframes spin {
+  from { transform: rotateZ(0deg); }
+  to { transform: rotateZ(360deg); }
+}

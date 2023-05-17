@@ -1,9 +1,37 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+body {
+  background-color: black;
+}
+*, h1, h2, h3 {
+  font-family: 'Castoro Titling', cursive;
+}
+#content {
+  background-color: #b7a282;
+}
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
+    border: solid 2px white;
+    border-radius: 10px;
+
     background-color: #DDD8C4;
-  }
+}
+
+#output {
+  background-color: rgb(35, 30, 34);
+  --text-color: rgb(181, 255, 181);
+  border: var(--text-color) solid 1px;
+  border-radius: 10px;
+  padding: 1em;
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--text-color);
+
+}
+pre {
+  font-family: 'Courier New', Courier, monospace;
+
+}

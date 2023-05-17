@@ -7,3 +7,13 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+#pseudocode {
+  justify-content: right;
+  
+  color: blue;
+}
+
+.screenshot {
+  width: 50%;
+}

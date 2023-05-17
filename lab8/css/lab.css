@@ -1,0 +1,13 @@
+
+.section {
+    background-color: rgb(131, 208, 255);
+    width: 70%;
+    margin: 1em;
+    padding: 1em;
+}
+code {
+    width: 100%;
+    background-color: rgb(28, 0, 33);
+    color:aquamarine;
+    font: Courier, monospace;
+}

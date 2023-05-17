@@ -1,0 +1,19 @@
+body {
+    background-color: antiquewhite;
+}
+
+div {
+    padding: 1em;
+    margin: 1em;
+}
+
+.section {
+    background-color: burlywood;
+    outline: black solid 2px;
+    border-radius: 5px;
+}
+.subsection {
+    background-color:darksalmon;
+    outline: black solid 2px;
+    border-radius: 5px;
+}
