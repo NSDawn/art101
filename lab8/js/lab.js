@@ -30,7 +30,7 @@ function main() {
     document.writeln("<br><br>Test of primeness of array: " + result);
 
     result = array.map(function(x){
-        return x **0.5;
+        return x ** 0.5;
     })
 
     console.log("Square root of array: " + result);

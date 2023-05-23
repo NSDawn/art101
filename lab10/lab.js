@@ -1,7 +1,7 @@
 /*
 * LAB 10
 * Learning use Event Listeners
-* 
+* NishSuriaant 
 */
 
 // grab the elements from the html
