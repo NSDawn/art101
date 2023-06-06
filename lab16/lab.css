@@ -1,0 +1,60 @@
+
+
+div {
+    padding: 1em;
+    margin: 1em;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body.darkmode {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+body.darkmode .section {
+    background-color: rgb(28, 28, 28);
+    
+    outline: rgb(122, 122, 122) solid 2px;
+    border-radius: 5px;
+}
+body.darkmode .subsection {
+    background-color:rgb(33, 75, 62);
+    outline: rgb(122, 122, 122) solid 2px;
+    border-radius: 5px;
+}
+
+body.lightmode {
+    background-color: white(0, 0, 0);
+    color: black;
+}
+body.lightmode .section {
+    background-color: rgb(255, 218, 124);
+    
+    outline: black solid 2px;
+    border-radius: 5px;
+}
+body.lightmode .subsection {
+    background-color:rgb(237, 211, 63);
+    outline: black solid 2px;
+    border-radius: 5px;
+}
+
+#output {
+    height: 34em;
+    overflow-y: scroll;
+    background-color: black;
+}
+.buttons { 
+    display:flex
+}
+
+.right_button {
+    float: right;
+}
+.left_button {
+    float: left;
+}
